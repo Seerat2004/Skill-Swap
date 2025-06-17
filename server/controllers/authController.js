@@ -2,8 +2,8 @@ import User from "../models/User.js";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
-// Secret key for JWT (in a real app, store in .env)
-const JWT_SECRET = "your_jwt_secret_key";
+// Use environment variable for JWT secret
+const JWT_SECRET = process.env.JWT_SECRET;
 
 // User Registration (Signup)
 export const signup = async (req, res) => {

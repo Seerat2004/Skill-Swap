@@ -1,5 +1,5 @@
 import express from 'express';
-import { createSkill, getUserSkills } from '../controllers/skillController.js';
+import { createSkill, getUserSkills,getAllSkills, matchSkills  } from '../controllers/skillController.js';
 import { protect } from '../middleware/authMiddleware.js';
 
 const router = express.Router();
