@@ -29,7 +29,7 @@ const Navbar = ({ toggleTheme, darkMode }) => {
           sx={{ flexGrow: 1, justifyContent: { xs: "center", sm: "center" }, mt: { xs: 1, sm: 0 } }}
         >
           <Button color="inherit" href="/">Home</Button>
-          <Button color="inherit" href="/explore">Explore</Button> {/* ✅ New Page */}
+          <Button color="inherit" href="/explore">Explore</Button> 
           <Button color="inherit" href="/about">About</Button>
           <Button color="inherit" href="/contact">Contact</Button>
         </Box>
